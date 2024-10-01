@@ -1,0 +1,62 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Gaya Foto Profil */
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Gaya Nama */
+.name-box h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Gaya Link Media Sosial */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-circle:hover {
+    background-color: #333;
+}
+
+/* Gaya Tanggal dan Waktu */
+.date-time-box {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
